@@ -18,8 +18,8 @@ module.exports = {
                 host: 'smtp.mailtrap.io',
                 port: 2525,
                 auth: {
-                    user: '785500aaf9ad00',
-                    pass: 'da4840519080d0',
+                    user: req.body.usuario,
+                    pass: req.body.senha,
                 }
             });
             let mailOptions = {
