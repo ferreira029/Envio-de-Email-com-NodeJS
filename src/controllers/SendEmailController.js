@@ -72,7 +72,7 @@ module.exports = {
         var mailOptions = {
             from: '"Não responder " <marcsantosferreira@gmail.com>', // sender address (who sends)
             to: 'msoftware.marc@outlook.com, marcsferreira2000@gmail.com', // list of receivers (who receives)
-            subject: 'Hello', // Subject line
+            subject: 'Nova Mensagem do Site', // Subject line
             text: req.body.message, // plaintext body
             html: htmlEmail // html body
         };
